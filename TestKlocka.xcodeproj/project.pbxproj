@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2BCF7C28BC1949007907B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BCF7B28BC1949007907B1 /* AppDelegate.swift */; };
+		DD2BCF7E28BC1949007907B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BCF7D28BC1949007907B1 /* SceneDelegate.swift */; };
+		DD2BCF8028BC1949007907B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BCF7F28BC1949007907B1 /* ViewController.swift */; };
+		DD2BCF8328BC1949007907B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2BCF8128BC1949007907B1 /* Main.storyboard */; };
+		DD2BCF8528BC194A007907B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2BCF8428BC194A007907B1 /* Assets.xcassets */; };
+		DD2BCF8828BC194A007907B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2BCF8628BC194A007907B1 /* LaunchScreen.storyboard */; };
+		DD2BCF9328BC194A007907B1 /* TestKlockaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BCF9228BC194A007907B1 /* TestKlockaTests.swift */; };
+		DD2BCF9D28BC194A007907B1 /* TestKlockaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BCF9C28BC194A007907B1 /* TestKlockaUITests.swift */; };
+		DD2BCF9F28BC194A007907B1 /* TestKlockaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BCF9E28BC194A007907B1 /* TestKlockaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD2BCF8F28BC194A007907B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2BCF7028BC1949007907B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2BCF7728BC1949007907B1;
+			remoteInfo = TestKlocka;
+		};
+		DD2BCF9928BC194A007907B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2BCF7028BC1949007907B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2BCF7728BC1949007907B1;
+			remoteInfo = TestKlocka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD2BCF7828BC1949007907B1 /* TestKlocka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKlocka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2BCF7B28BC1949007907B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD2BCF7D28BC1949007907B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD2BCF7F28BC1949007907B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD2BCF8228BC1949007907B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD2BCF8428BC194A007907B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2BCF8728BC194A007907B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD2BCF8928BC194A007907B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2BCF8E28BC194A007907B1 /* TestKlockaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKlockaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2BCF9228BC194A007907B1 /* TestKlockaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKlockaTests.swift; sourceTree = "<group>"; };
+		DD2BCF9828BC194A007907B1 /* TestKlockaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKlockaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2BCF9C28BC194A007907B1 /* TestKlockaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKlockaUITests.swift; sourceTree = "<group>"; };
+		DD2BCF9E28BC194A007907B1 /* TestKlockaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKlockaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2BCF7528BC1949007907B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2BCF8B28BC194A007907B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2BCF9528BC194A007907B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2BCF6F28BC1949007907B1 = {
+			isa = PBXGroup;
+			children = (
+				DD2BCF7A28BC1949007907B1 /* TestKlocka */,
+				DD2BCF9128BC194A007907B1 /* TestKlockaTests */,
+				DD2BCF9B28BC194A007907B1 /* TestKlockaUITests */,
+				DD2BCF7928BC1949007907B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2BCF7928BC1949007907B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BCF7828BC1949007907B1 /* TestKlocka.app */,
+				DD2BCF8E28BC194A007907B1 /* TestKlockaTests.xctest */,
+				DD2BCF9828BC194A007907B1 /* TestKlockaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2BCF7A28BC1949007907B1 /* TestKlocka */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BCF7B28BC1949007907B1 /* AppDelegate.swift */,
+				DD2BCF7D28BC1949007907B1 /* SceneDelegate.swift */,
+				DD2BCF7F28BC1949007907B1 /* ViewController.swift */,
+				DD2BCF8128BC1949007907B1 /* Main.storyboard */,
+				DD2BCF8428BC194A007907B1 /* Assets.xcassets */,
+				DD2BCF8628BC194A007907B1 /* LaunchScreen.storyboard */,
+				DD2BCF8928BC194A007907B1 /* Info.plist */,
+			);
+			path = TestKlocka;
+			sourceTree = "<group>";
+		};
+		DD2BCF9128BC194A007907B1 /* TestKlockaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BCF9228BC194A007907B1 /* TestKlockaTests.swift */,
+			);
+			path = TestKlockaTests;
+			sourceTree = "<group>";
+		};
+		DD2BCF9B28BC194A007907B1 /* TestKlockaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BCF9C28BC194A007907B1 /* TestKlockaUITests.swift */,
+				DD2BCF9E28BC194A007907B1 /* TestKlockaUITestsLaunchTests.swift */,
+			);
+			path = TestKlockaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2BCF7728BC1949007907B1 /* TestKlocka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2BCFA228BC194A007907B1 /* Build configuration list for PBXNativeTarget "TestKlocka" */;
+			buildPhases = (
+				DD2BCF7428BC1949007907B1 /* Sources */,
+				DD2BCF7528BC1949007907B1 /* Frameworks */,
+				DD2BCF7628BC1949007907B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestKlocka;
+			productName = TestKlocka;
+			productReference = DD2BCF7828BC1949007907B1 /* TestKlocka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD2BCF8D28BC194A007907B1 /* TestKlockaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2BCFA528BC194A007907B1 /* Build configuration list for PBXNativeTarget "TestKlockaTests" */;
+			buildPhases = (
+				DD2BCF8A28BC194A007907B1 /* Sources */,
+				DD2BCF8B28BC194A007907B1 /* Frameworks */,
+				DD2BCF8C28BC194A007907B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2BCF9028BC194A007907B1 /* PBXTargetDependency */,
+			);
+			name = TestKlockaTests;
+			productName = TestKlockaTests;
+			productReference = DD2BCF8E28BC194A007907B1 /* TestKlockaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD2BCF9728BC194A007907B1 /* TestKlockaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2BCFA828BC194A007907B1 /* Build configuration list for PBXNativeTarget "TestKlockaUITests" */;
+			buildPhases = (
+				DD2BCF9428BC194A007907B1 /* Sources */,
+				DD2BCF9528BC194A007907B1 /* Frameworks */,
+				DD2BCF9628BC194A007907B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2BCF9A28BC194A007907B1 /* PBXTargetDependency */,
+			);
+			name = TestKlockaUITests;
+			productName = TestKlockaUITests;
+			productReference = DD2BCF9828BC194A007907B1 /* TestKlockaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2BCF7028BC1949007907B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DD2BCF7728BC1949007907B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DD2BCF8D28BC194A007907B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DD2BCF7728BC1949007907B1;
+					};
+					DD2BCF9728BC194A007907B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DD2BCF7728BC1949007907B1;
+					};
+				};
+			};
+			buildConfigurationList = DD2BCF7328BC1949007907B1 /* Build configuration list for PBXProject "TestKlocka" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD2BCF6F28BC1949007907B1;
+			productRefGroup = DD2BCF7928BC1949007907B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2BCF7728BC1949007907B1 /* TestKlocka */,
+				DD2BCF8D28BC194A007907B1 /* TestKlockaTests */,
+				DD2BCF9728BC194A007907B1 /* TestKlockaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2BCF7628BC1949007907B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BCF8828BC194A007907B1 /* LaunchScreen.storyboard in Resources */,
+				DD2BCF8528BC194A007907B1 /* Assets.xcassets in Resources */,
+				DD2BCF8328BC1949007907B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2BCF8C28BC194A007907B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2BCF9628BC194A007907B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2BCF7428BC1949007907B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BCF8028BC1949007907B1 /* ViewController.swift in Sources */,
+				DD2BCF7C28BC1949007907B1 /* AppDelegate.swift in Sources */,
+				DD2BCF7E28BC1949007907B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2BCF8A28BC194A007907B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BCF9328BC194A007907B1 /* TestKlockaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2BCF9428BC194A007907B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BCF9D28BC194A007907B1 /* TestKlockaUITests.swift in Sources */,
+				DD2BCF9F28BC194A007907B1 /* TestKlockaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD2BCF9028BC194A007907B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2BCF7728BC1949007907B1 /* TestKlocka */;
+			targetProxy = DD2BCF8F28BC194A007907B1 /* PBXContainerItemProxy */;
+		};
+		DD2BCF9A28BC194A007907B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2BCF7728BC1949007907B1 /* TestKlocka */;
+			targetProxy = DD2BCF9928BC194A007907B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD2BCF8128BC1949007907B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2BCF8228BC1949007907B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD2BCF8628BC194A007907B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2BCF8728BC194A007907B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD2BCFA028BC194A007907B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD2BCFA128BC194A007907B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2BCFA328BC194A007907B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HCGK89358;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestKlocka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadardal.TestKlocka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD2BCFA428BC194A007907B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HCGK89358;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestKlocka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadardal.TestKlocka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD2BCFA628BC194A007907B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HCGK89358;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadardal.TestKlockaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestKlocka.app/TestKlocka";
+			};
+			name = Debug;
+		};
+		DD2BCFA728BC194A007907B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HCGK89358;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadardal.TestKlockaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestKlocka.app/TestKlocka";
+			};
+			name = Release;
+		};
+		DD2BCFA928BC194A007907B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HCGK89358;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadardal.TestKlockaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestKlocka;
+			};
+			name = Debug;
+		};
+		DD2BCFAA28BC194A007907B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HCGK89358;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadardal.TestKlockaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestKlocka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2BCF7328BC1949007907B1 /* Build configuration list for PBXProject "TestKlocka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2BCFA028BC194A007907B1 /* Debug */,
+				DD2BCFA128BC194A007907B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2BCFA228BC194A007907B1 /* Build configuration list for PBXNativeTarget "TestKlocka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2BCFA328BC194A007907B1 /* Debug */,
+				DD2BCFA428BC194A007907B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2BCFA528BC194A007907B1 /* Build configuration list for PBXNativeTarget "TestKlockaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2BCFA628BC194A007907B1 /* Debug */,
+				DD2BCFA728BC194A007907B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2BCFA828BC194A007907B1 /* Build configuration list for PBXNativeTarget "TestKlockaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2BCFA928BC194A007907B1 /* Debug */,
+				DD2BCFAA28BC194A007907B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2BCF7028BC1949007907B1 /* Project object */;
+}
